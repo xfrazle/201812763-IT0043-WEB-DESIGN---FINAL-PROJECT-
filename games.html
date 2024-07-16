@@ -17,7 +17,7 @@
 <body class="games-gradient-bg">
     <nav class="navbar navbar-expand-sm bg-black fixed-top text-center" style="z-index: 10000">
         <div class="container-fluid container-sm ">
-            <a class="navbar-brand" href="./index.html"><img id="Logo"
+            <a class="navbar-brand d-none d-sm-block d-xs-block d-md-block" href="./index.html"><img id="Logo"
                     class="navLogo img-thumbnail border-bottom border-danger bg-black" src="img/logo-w.png"
                     alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -53,39 +53,100 @@
         </div>
     </nav>
 
+    <div class="row">
+        <div id="carouselExampleIndicators" class="container carousel slide col-10">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"><img src="./img/games/game1.png" class="d-block w-100"
+                        alt="..."></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"><img src="./img/games/game2.png" class="d-block w-100" alt="..."></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"><img src="./img/games/game3.png" class="d-block w-100" alt="..."></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/games/game1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/games/game2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/games/game3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon btn btn-danger" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon btn btn-danger" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <div class="container col-10 mt-5">
+            
+            <div class=" border-bottom border-4 border-light text-light mb-3 col-3" style="margin-left: 5%;;">
+                <h5>More Games</h5>
+            </div>
 
-    <div id="carouselExampleIndicators" class="container carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"><img src="./img/games/game1.png" class="d-block w-100"
-                    alt="..."></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"><img src="./img/games/game2.png" class="d-block w-100" alt="..."></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"><img src="./img/games/game3.png" class="d-block w-100" alt="..."></button>
+            <div class="row mb-4">
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="./img/games/game1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">My other games</p>
+                            <a href="#" class="btn btn-light">Check Game</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="./img/Projects/P3.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">My other games</p>
+                            <a href="#" class="btn btn-success">Check Game</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="./img/games/game3.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">My other games</p>
+                            <a href="#" class="btn btn-secondary">Check Game</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="./img/Projects/P2.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">My other games</p>
+                            <a href="#" class="btn btn-danger">Check Game</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/games/game1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/games/game2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/games/game3.png" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon btn btn-danger" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon btn btn-danger" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+
+
+
 
     <!-- footer div -->
 
